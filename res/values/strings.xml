@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="password">password</string>
+    <string name="login1">login</string>
+    <string name="button_working">button working</string>
+    <string name="login">Login</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="username1">Username</string>
+    <string name="password2">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="already_a_member_login">Already a member? Login</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="password1">Password</string>
+    <string name="confirm_password1">Confirm password</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="student_login">Student Login</string>
+    <string name="teacher_login">Teacher Login</string>
+    <string name="email">Email</string>
+    <string name="passwordte">Password</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="todo">TODO</string>
+</resources>

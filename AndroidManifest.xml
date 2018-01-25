@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.narender.myapplication">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="DIGITAL CLASSROOM"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".teacher_signup" />
+        <activity android:name=".student_login" />
+        <activity android:name=".teacher_login" />
+        <activity android:name=".student_signup" />
+        <activity android:name=".teacher_dashboard" />
+        <activity android:name=".quiz_creater" />
+        <activity android:name=".teacher_profile" />
+        <activity android:name=".student_dashboard" />
+        <activity android:name=".student_profile" />
+        <activity android:name=".quizquest" />
+        <activity android:name=".online_attendance" />
+    </application>
+
+</manifest>
